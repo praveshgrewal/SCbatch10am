@@ -48,7 +48,26 @@ select * from students where marks > 50;
 
 
 
+CREATE TABLE if not exists sc10.trainees(
+ROLL_NO INT,
+NAME VARCHAR(100),
+AGE INT,
+GRADE CHAR(10),
+MARKS INT
+);
 
+
+select * from sc10.students where marks > 50;
+
+
+
+CREATE TABLE if not exists STUDENTS(
+ROLL_NO INT,
+NAME VARCHAR(100),
+AGE INT,
+GRADE CHAR(10),
+MARKS INT
+);
 
 
 
